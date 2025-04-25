@@ -1,0 +1,396 @@
+.Email{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Email label{
+    margin: 0 5px;
+}
+.Password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 22px 0 0;
+    
+}
+.Password label{
+    margin: 0 5px;
+}
+.login_page{
+    background-color: #94b6b6;
+    width: 300px;
+    height: 150px;   
+    border-radius: 10px;
+    top: 75px;
+    position: absolute;
+    border: solid black;
+
+}
+.no_page{
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: #169ad182;
+    margin-left: 600px;
+    padding: 0 50px;
+    position: relative;
+    border-radius: 10px;
+    border: solid gray;
+}
+.login_page header h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.sub input{
+    float: right;
+    margin: 8px 10px 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* ------------------------------------------------- */
+
+.headup{
+    background-color: skyblue;
+    color: black;
+    margin: -8px -10px 20px;
+    font-size: 20px;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    border: solid 1px black;
+}
+
+.headup .home{  
+
+    width: 8%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin: 5px 5px ;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 3px;
+    border: solid gray;
+    
+}
+
+ .home a{  
+  color: black;
+  text-decoration: none;
+} 
+.list{
+    margin: 10px 4px 10px 10px;
+    float: right; 
+}
+.sign{
+    float: right;
+    margin: 10px 10px ;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 3px;
+    border: solid gray;
+    cursor: pointer;
+   
+}
+.sign a{
+    color: black;
+    text-decoration: none;
+}
+.tools{
+    float: right;
+    margin: 10px 10px ;
+    
+}
+.home img,
+.list img,
+.sign img,
+.tools img{
+    width: 250px;
+    height: 250px;
+    padding: 20px 20px 0;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.search_o{
+    display: flex;
+    align-items: center;
+    margin: 15px 200px ;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+    text-align: center; 
+    border-radius: 10px;
+    border:  solid black 2px;
+}
+.search_o input{
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    width: 300px;
+    height: 30px;
+    background-color: #94b6b6;
+}
+/* ------------------------------------------------- */
+.nav{
+
+    margin: 2% 8% 0 8% ;
+    
+}
+.nav ul {
+    padding: 0;
+    /* margin:0 70px ; */
+    
+    display: flex;
+    margin:0 10%;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.nav li {
+    background-color: aqua;
+    padding:10px 72.5px;
+    color: black;
+    border: solid black;
+    font-size: 20px;  
+}
+.nav a{
+text-decoration: none;
+}
+.nav_light :hover{
+    background-color: gray;
+     
+     font-weight: bold;
+}
+/* ------------------------------------------------- */
+.right_side{
+    background-color: #e8dedec7;
+    width: 20%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+    border: solid black 1px;
+}
+
+.aside_list_information ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+ }
+ #top_game_list{
+    list-style: decimal;
+    list-style-position: inside;
+ }
+ #top_game_list li{
+   font-size: 16px;
+ }
+ #top_game_list .aside_light_right :hover{
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+ }
+.aside_list_information li{
+    font-size: 15px;
+    
+     padding: 8px;
+     
+ }
+.aside_light_right :hover{
+     background-color: chartreuse;
+     
+     font-weight: bold;
+     
+ }
+/* ------------------------------------------------- */
+.left_side{
+    background-color: whitesmoke;
+    width: 10%;
+    height: 100%;
+    margin-top: 18px;
+    border: solid black 1px;
+
+
+}
+.aside_list_game ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+ }
+.aside_list_game li{
+     border: solid black 2px;
+     padding: 8px;
+     
+ }
+.aside_list_game_light :hover{
+     background-color: aqua;
+     color: red;
+     font-weight: bold;
+     
+ }
+ .aside_list_game_light a{
+    text-decoration: none;
+    color: black;
+ }
+ /* ------------------------------------------------- */
+.game_list{
+    background-color: burlywood;
+    width: 66%;
+    height: 100%;
+    float: right;
+    margin: 10px 2%;
+    border: solid black 1px;
+}
+.poster_games1 img{
+    width: 96%;
+    margin: 3px 2% 0;
+
+}
+.poster_games2 img{
+
+    width: 96%;
+    height: 120px;
+    margin: 3px 2% 0;
+
+
+}
+.type_games{
+    background-color: skyblue;
+    color: black;
+    margin-bottom:20px ;
+    text-align: center;
+    font-size: 25px;
+    border: solid black 1px;
+}
+.groub_gmaes{
+    width: 96%;
+    height: 400px;
+    margin: 0 2%;
+    background-color: beige;
+    display: flex;
+
+}
+.poster{
+    width: 24%;
+    
+    background-color: #702c2c;
+    margin: 15px 0.5% 2%;
+    border:solid #94b6b6 2px;
+    text-align: center;
+}
+.poster img {
+    cursor: pointer;
+    width: 100%;
+    height: 90%;
+
+}
+h3{
+    max-height: 15px;
+    overflow: visible;
+    font-size: 15px;
+    padding: 0 0 20px;
+    margin: 0;
+    /* margin: 4px 10px 15px ; */
+    background-color: wheat;
+}
+#img_search{
+    width: 20px;
+    height: 30px;
+    border-radius: 30px;
+}
+.poster a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------------ */
+.game{
+
+    background-color:blanchedalmond;
+    width:37.5%;
+    margin: 5% 30% 1%;
+}
+/* #elden_ring{
+    font-weight: bold;
+    display: flex;
+   
+    
+   
+} */
+#elden_ring img{
+width: 180px;
+}
+ table{
+    border: 1px black solid;
+    text-align: center;
+   width: 50%;
+   font-weight: bold;
+ }
+ 
+table td{
+    padding:2px 40px;
+    border: 2px black solid;
+ }
+ .td_green{
+    background-color: coral;
+ }
+ .td_yellow{
+    background-color: yellow;
+ }
+ 
+.download{
+    width: 20%;
+    margin:0 40%;
+}
+
+.download button{
+    border-radius: 10px;
+    width: 100%;
+    padding:10px 0 ;
+    background-color: skyblue;
+    cursor: pointer;
+
+}
+.info_game{
+    font-size: 60px;
+    background-color: bisque;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.descrtion_game{
+    width: 70%;
+    margin:3% 15%;
+    background-color: #94b6b6;
+    border-radius: 5px;
+    border: 1px black solid;
+    
+}
+.descrtion_game p{
+    direction: rtl;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    
+}
+.descrtion_game h2{
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
